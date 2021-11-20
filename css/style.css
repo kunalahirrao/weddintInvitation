@@ -421,10 +421,44 @@ img {
 .title p {
 	color: #564861;
 	margin: 30px 0 20px;
-	text-transform: uppercase;
-	letter-spacing: 3px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
 	font-size: 16px;
 }
+
+.topheading {
+	size: 100%;
+	padding-block: 0%;
+	text-align: center;
+}
+
+@media (max-width:900px) {
+	.topheading{
+		size: 100%;
+		padding-block: 10%;
+		text-align: center;
+	}
+}
+.topheading p {
+	color: #564861;
+}
+.topheading h3 {
+	color: #745d7e;
+}
+
+.invite div {
+	size: 100%;
+
+}
+.invite p {
+	font-weight: 300;
+	text-transform: capitalize;
+	letter-spacing: 5px;
+	font-size: 24px;
+	color: #564861;
+	margin-top: 5px;
+}
+
 
 .wrap {
 	display: -webkit-flex;
@@ -534,7 +568,7 @@ body {
 	color: #564861;
 	text-align: center;
 	font-size: 16px;
-	margin: 24px;
+	margin: 16px;
 }
 
 .phone {
@@ -561,9 +595,14 @@ a {
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
-	margin-bottom: 24px;
 }
 
+.happiness a {
+	padding-block: 0px;
+}
+.insta {
+	max-width: 10%;
+}
 .twitter {
 	color: #874562;
 }
